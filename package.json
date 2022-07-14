@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dejanjacimovic/sc_careers_2022/issues"
   },
-  "homepage": "https://github.com/dejanjacimovic/sc_careers_2022#readme"
+  "homepage": "https://github.com/dejanjacimovic/sc_careers_2022#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
 }
