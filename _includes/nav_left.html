@@ -1,9 +1,9 @@
-<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+<div class="relative px-4 pt-6 sm:px-6 lg:px-8">
   <nav
     class="relative flex items-center justify-between sm:h-10 lg:justify-start"
   >
-    <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-      <div class="flex items-center justify-between w-full md:w-auto">
+    <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
+      <div class="flex w-full items-center justify-between md:w-auto">
         <a href="/" aria-label="Home">
           <img
             class="h-8 w-auto sm:h-10"
@@ -13,7 +13,7 @@
         </a>
         <div class="-mr-2 flex items-center md:hidden">
           <button
-            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none"
             id="main-menu"
             type="button"
             aria-label="Main menu"
@@ -38,49 +38,49 @@
       </div>
     </div>
 
-    <div class="hidden md:block md:ml-10 md:pr-4">
+    <div class="hidden md:ml-10 md:block md:pr-4">
       <a
-        class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+        class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
         href="/about/"
         >About</a
       >
       <a
-        class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-        href="/pricing/"
-        >Pricing</a
+        class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
+        href="/internship-junior/"
+        >Internship &amp; Junior</a
       >
       <a
-        class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+        class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
         href="/the-process/"
         >The process</a
       >
       <a
-        class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
-        href="/contact/"
-        >Contact</a
+        class="ml-8 font-medium text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-900"
+        href="/open-positions/"
+        >Open Positions</a
       >
     </div>
   </nav>
 </div>
 
 <div
-  class="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right"
+  class="absolute inset-x-0 top-0 hidden origin-top-right transform p-2 transition"
   id="main-mobile-menu"
 >
   <div class="rounded-lg shadow-md">
     <div
-      class="rounded-lg bg-white shadow-xs overflow-hidden"
+      class="shadow-xs overflow-hidden rounded-lg bg-white"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="main-menu"
     >
-      <div class="px-5 pt-4 flex items-center justify-between">
+      <div class="flex items-center justify-between px-5 pt-4">
         <div>
           <img class="h-8 w-auto" src="/assets/images/logo.png" alt="" />
         </div>
         <div class="-mr-2">
           <button
-            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none"
             type="button"
             aria-label="Close menu"
             onclick="document.getElementById('main-mobile-menu').className='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'"
@@ -103,19 +103,19 @@
       </div>
       <div class="px-2 pt-2 pb-3">
         <a
-          class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+          class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
           href="/about/"
           role="menuitem"
           >About</a
         >
         <a
-          class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-          href="/pricing/"
+          class="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
+          href="/internship-junior/"
           role="menuitem"
-          >Pricing</a
+          >Internship &amp; Junior</a
         >
         <a
-          class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+          class="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
           href="/the-process/"
           role="menuitem"
           >The Process</a
@@ -123,10 +123,10 @@
       </div>
       <div>
         <a
-          class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-          href="/contact/"
+          class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-indigo-700 focus:bg-gray-100 focus:text-indigo-700 focus:outline-none"
+          href="/open-positions/"
           role="menuitem"
-          >Contact</a
+          >Open Positions</a
         >
       </div>
     </div>
