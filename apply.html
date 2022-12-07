@@ -85,6 +85,7 @@ permalink: /apply/
         name="contact"
         method="POST"
         data-netlify="true"
+        enctype="multipart-form/data"
       >
         <div>
           <label
@@ -167,6 +168,21 @@ permalink: /apply/
               rows="4"
             ></textarea>
           </div>
+        </div>
+        <div>
+          <label
+            htmlFor="file"
+            lassName="block text-sm font-medium text-gray-700"
+          >
+            <Trans>Upload CV</Trans>
+          </label>
+          <input
+            type="file"
+            name="file"
+            id="file"
+            accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            className="block w-full text-sm text-slate-500 file:mr-4 file:rounded-full file:border-0 file:bg-indigo-50 file:px-4 file:text-sm file:font-semibold file:text-indigo-700 hover:file:bg-indigo-100"
+          />
         </div>
         <div class="sm:col-span-2">
           <div class="flex items-start">
